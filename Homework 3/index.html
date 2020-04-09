@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Homework3</title>
+		<link href="css/app.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<h1>Who is the top dog of winter Olympics?</h1>
+		<h2>To get to the bottom of this I’ve decided on a concrete method to determine
+			exactly which nation reigns supreme. To eliminate the possibility of a country 
+			winning by having a huge number of athletes only the medals will be counted 
+			on a point system. Every medal an athlete earns for their country adds to the 
+			country’s score. A bronze medal is 1 point, a silver medal is 2 points, and a gold
+			medal is 3 points.</h2>
+
+		<h2 class="Bronze">Bronze</h2>
+		<canvas id="BronzeChart"></canvas>
+		<p>After counting up the bronze medals Finland is surprisingly in first. Some close front runners are Sweden, Russia, and USA.</p>
+		<h2>Total Checkpoint</h2>
+		<canvas id="TotalBChart"></canvas>
+		<p>As each bronze medal is only worth one point these current standings are very likely to change.</p>
+		<hr   />
+
+		<h2 class="Silver">Silver</h2>
+		<canvas id="SilverChart"></canvas>
+		<p>USA steals the silver medal category by a landslide. Canada and Russia are a distant Second and Third.</p>
+		<h2>Total Checkpoint</h2>
+		<canvas id="TotalSChart"></canvas>
+		<p>USA's abundance of silvers puts it far ahead in the total count. Canad and Russia have held on to their second and third spots.</p>
+		<hr   />
+
+		<h2 class="Gold">Gold</h2>
+		<canvas id="GoldChart"></canvas>
+		<p>Russia and Canada take the gold medals by storm. USA their biggest competitor is far behind.</p>
+		<h2>Final Total</h2>
+		<canvas id="TotalGChart"></canvas>
+		<p>In the end with their similar medal counts with Russia being just ahead, Russia takes first place. Canada and USA take the second and third spots. All in all Russia has pulled off an upset over Canada, the favored to win. It's almost as if whoever created this page was certain Canada had the most medals and built their premise around it. Whoops. Anyway Russia Wins!</p>
+
+		<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+		<script src="js/app.js"></script>
+	</body>
+</html>
